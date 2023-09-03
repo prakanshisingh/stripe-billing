@@ -1,0 +1,134 @@
+.app-container{
+  text-align: center;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+ }
+ .header-topic{
+  border-radius: 45px;
+  padding: 40px;
+ }
+
+ /* .table{
+  text-align: center;
+  justify-content: center;
+ } */
+ /* .tableMain{
+  padding-left: 200px;
+  padding-right: 200px;
+ } */
+
+ .toggle{
+  background-color: teal;
+  padding: 10px;
+  border-radius: 100px;
+  margin-bottom: 52px;
+  width: 178px;
+  margin-left: 160px;
+  
+ 
+ }
+ #Yearly{
+  margin-left: 30px;
+  font-size: 14px;
+}
+
+#Monthly{
+  /* margin-left: 10px; */
+  font-size: 14px;
+  color: aliceblue;
+}
+.toggle label{
+  /* text-align: center; */
+  font-size: 15px;
+  /* padding: 5px; */
+  color: aliceblue;
+}
+.toggle input[type="radio"]:checked + label{
+  background-color: aliceblue;
+  color: teal;
+  box-shadow: none;
+  border: teal solid 1px;
+  border-radius: 35px;
+  /* width : 77px; */
+  padding: 10px;
+  text-align: center;
+}
+input[type="radio"]{
+  visibility: hidden;
+  height: 0;
+  width: 0;
+  }
+
+
+ .button {
+  float: left;
+  margin: 5px 5px 0 60px;
+  width: 100px;
+  height: 130px;
+  position: relative;
+}
+.button label,
+.button input {
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 38px;
+  background: rgb(139, 243, 243);
+  justify-content: center;
+  text-align: center;
+  color: teal;
+}
+.button input[type="radio"] {
+  opacity: 0.011;
+  z-index: 100;
+}
+
+.button input[type="radio"]:checked + label {
+  background: teal;
+  border-radius: 4px;
+  color: rgb(255, 255, 255);
+}
+
+
+.button label {
+  cursor: pointer;
+  z-index: 90;
+  line-height: 6.6em;
+  font-size:14px;
+}
+
+.triangle-down {
+	width: 0;
+	height: 0;
+	border-left: 15px solid transparent;
+	border-right: 15px solid transparent;
+	border-top: 20px solid teal;
+  position: relative;
+  top: 80px;
+  left: 35px;
+}
+.selected{
+  color: rgb(17, 175, 175);
+  font-weight: bold;
+}
+.btn{
+  background: white;
+  color: teal;
+  font-weight: bolder;
+  /* border: rgb(254, 254, 254) 2px solid; */
+}
+.btn:hover{
+  background-color: rgb(139, 243, 243);
+  color: teal;
+}
+
+
+
+
+
+
+ 
